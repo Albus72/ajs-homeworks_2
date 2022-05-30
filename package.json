@@ -1,0 +1,38 @@
+{
+  "name": "ajs-homeworks_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "babel": "babel src -d dist",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albus72/ajs-homeworks_2.git"
+  },
+  "author": "Albus72",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albus72/ajs-homeworks_2/issues"
+  },
+  "homepage": "https://github.com/Albus72/ajs-homeworks_2#readme",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "html-loader": "^3.1.0"
+  }
+}
